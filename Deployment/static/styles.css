@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #1e1e2f; /* Dark background for a modern look */
+    color: #ffffff; /* White text for contrast */
+    box-sizing: border-box; /* Ensure padding and borders are included in element width */
+}
+
+h1 {
+    text-align: left;
+    color: #ff9800; /* Bold orange header */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Space out the image and text sections */
+    gap: 20px; /* Add space between the two sections */
+    flex-wrap: wrap; /* Allow the layout to wrap on smaller screens */
+    margin: 0 auto; /* Center the container */
+}
+
+#image-form, #text-form {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    background: #282846; /* Deep purple-blue form background */
+    padding: 20px;
+    border-radius: 8px; /* Smooth edges */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    width: 48%; /* Set a flexible width */
+    min-width: 300px; /* Prevent them from getting too narrow */
+    box-sizing: border-box; /* Ensure padding and borders are included in width calculation */
+}
+
+button {
+    background-color: #ff9800; /* Bright orange button */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #e68900; /* Darker orange on hover */
+}
+
+#image-container {
+    margin-top: 20px;
+    text-align: left;
+    padding: 15px;
+    background: #3a3a5d; /* Dark blue-gray container */
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: 2px solid #ff9800; /* Add border around uploaded image */
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack the sections vertically */
+        align-items: center; /* Center the sections */
+    }
+
+    #image-form, #text-form {
+        width: 90%; /* Make the forms take up most of the screen width */
+        min-width: 0; /* Remove the min-width to make them more flexible */
+    }
+
+    button {
+        width: 100%; /* Make the buttons stretch across the width */
+    }
+}

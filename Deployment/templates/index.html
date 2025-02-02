@@ -3,15 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Prediction</title>
+    <title>Prediction App</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='styles.css') }}">
 </head>
 <body>
-    <h1>Upload an Image for Prediction</h1>
-    <form action="/predict" method="post" enctype="multipart/form-data">
-        <label for="image">Choose a .jpg image:</label>
-        <input type="file" id="image" name="image" accept=".jpg,.jpeg" required>
-        <br><br>
-        <button type="submit">Predict</button>
-    </form>
+
+    <!-- CONTAINER DIV TO ALIGN THE SECTIONS -->
+    <div class="container">
+
+        <!-- IMAGE PREDICTION SECTION -->
+        <div id="image-form">
+            <h1>Upload an Image for Prediction</h1>
+            <form action="/process-images/" method="post" enctype="multipart/form-data">
+                <label for="image">Choose a .jpg image:</label>
+                <input type="file" id="image" name="user_images" accept=".jpg,.jpeg" required>
+                <br><br>
+                <button type="submit">Predict</button>
+            </form>
+
+            <div id="image-container">
+                <h2>Uploaded Image:</h2>
+                <img id="uploaded-image" src="" alt="Uploaded Image" style="display: none;">
+                <p id="prediction-result"></p>
+            </div>
+        </div>
+
+        <!-- TEXT SENTIMENT ANALYSIS SECTION -->
+        <div id="text-form">
+            <h1>Text Sentiment Analysis</h1>
+            <form>
+                <label for="user-text">Enter text for sentiment analysis:</label>
+                <textarea id="user-text" name="text" rows="4" required></textarea>
+                <br><br>
+                <button type="submit">Analyze Sentiment</button>
+            </form>
+
+            <div id="text-result">
+                <h2>Sentiment Prediction:</h2>
+                <p id="sentiment-output"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // IMAGE PREDICTION HANDLER
+        document.getElementById("image-form").addEventListener("submit", async (event) => {
+            event.preventDefault();
+
+            const formData = new FormData(event.target);
+            try {
+                const response = await fetch('/process-images/', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (!response.ok) {
+                    throw new Error("Image prediction failed.");
+                }
+
+                const data = await response.json();
+
+                if (data.predicted_label && data.prediction_score !== undefined) {
+                    document.getElementById("uploaded-image").src = data.image_url;
+                    document.getElementById("uploaded-image").style.display = "block";
+                    document.getElementById("prediction-result").innerHTML = 
+                        `Prediction: ${data.predicted_label} (Score: ${data.prediction_score})`;
+                } else {
+                    document.getElementById("prediction-result").innerText = "Error: Missing prediction data";
+                }
+            } catch (error) {
+                console.error(error);
+                document.getElementById("prediction-result").innerText = `Error: ${error.message}`;
+            }
+        });
+
+        // TEXT SENTIMENT ANALYSIS HANDLER
+        document.getElementById("text-form").addEventListener("submit", async (event) => {
+            event.preventDefault();
+
+            const userText = document.getElementById("user-text").value;
+            const reviews = userText.split("\n").map((review) => review.trim()).filter((review) => review);  // Split by line and clean up
+
+            const response = await fetch("/process-text/", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ text: reviews }),
+            });
+
+            const data = await response.json();
+            document.getElementById("sentiment-output").innerText = 
+                `Sentiments: ${data.sentiments.join(", ")}`;
+        });
+    </script>
+
 </body>
 </html>

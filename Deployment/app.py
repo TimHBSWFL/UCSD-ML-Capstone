@@ -1,140 +1,185 @@
-import io
-import sys
 import os
-import boto3
 import json
-import base64
-from flask import Flask, request, jsonify, render_template
+import boto3
+import torch
 from PIL import Image
-from preprocessing_images import merge_csvs, preprocess_user_images
-# from inference_utils import MultimodalClassifierInference
+import pandas as pd
+from io import BytesIO
+from pydantic import BaseModel
+from typing import List
+from fastapi import FastAPI, UploadFile, File, HTTPException, Request
+from fastapi.responses import HTMLResponse, JSONResponse
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
+from transformers import CLIPProcessor, CLIPModel
 
-app = Flask(__name__)
 
-# SageMaker endpoint name
-SAGEMAKER_ENDPOINT_NAME = "multimodal-classifier-endpoint-011725"
+# Initialize FastAPI app
+app = FastAPI()
 
-# Initialize inference utility
-# inference_util = MultimodalClassifierInference(SAGEMAKER_ENDPOINT_NAME)
+# Configure Jinja2Templates for HTML rendering
+templates = Jinja2Templates(directory="templates")
 
-# S3 bucket details
+# Serve static files (optional, for CSS/JS)
+app.mount("/temp_images", StaticFiles(directory="temp_images"), name="temp_images")
+app.mount("/static", StaticFiles(directory="static"), name="static")
+
+
+# S3 bucket details and global variables
 S3_BUCKET = "sagemaker-studio-619071335465-8h7owh9eftx"
 MAIN_IMAGE_DIR = "samples/image classification/"
 EXCLUDED_FILE = "samples/image classification/final_image_to_text_results_other.csv"
+CLIP_MODEL_PATH = "/home/sagemaker-user/clip_model"
+CLIP_PROCESSOR_PATH = "/home/sagemaker-user/clip_processor"
+ENDPOINT_NAME = "multimodal-classifier-endpoint-0126257"
+endpoint_name_txt = "hf-text-reviews-01044"
 
-# Load and merge CSVs into a DataFrame at startup
-csv_df = merge_csvs(S3_BUCKET, MAIN_IMAGE_DIR, EXCLUDED_FILE)
+# S3 and SageMaker runtime clients
+s3 = boto3.client("s3")
+runtime_client = boto3.client("sagemaker-runtime")
 
-@app.route('/')
-def index():
-    """
-    Serve the index.html file.
-    """
-    return render_template('index.html')
+# Load CLIP model and processor at startup
+@app.on_event("startup")
+def load_clip_model():
+    global clip_model, clip_processor, device
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    clip_model = CLIPModel.from_pretrained(CLIP_MODEL_PATH).to(device)
+    clip_processor = CLIPProcessor.from_pretrained(CLIP_PROCESSOR_PATH)
 
-@app.route('/predict', methods=['POST'])
-def predict():
+
+def fetch_csv_data(bucket: str, prefix: str, excluded_file: str):
+    response = s3.list_objects_v2(Bucket=bucket, Prefix=prefix)
+    csv_files = [obj['Key'] for obj in response.get('Contents', []) if obj['Key'].endswith('.csv') and obj['Key'] != excluded_file]
+    
+    chunks = []
+    for file_key in csv_files:
+        obj = s3.get_object(Bucket=bucket, Key=file_key)
+        chunk = pd.read_csv(obj['Body'], chunksize=10000)
+        chunks.extend(chunk)
+    return pd.concat(chunks, ignore_index=True)
+
+def merge_csvs(bucket_name, main_image_dir, excluded_file):
+    df_concat = fetch_csv_data(bucket_name, main_image_dir, excluded_file).drop_duplicates(subset='photo_id')
+    df_captions = pd.read_csv(f"s3://{bucket_name}/{excluded_file}")
+    df_captions['photo_id'] = df_captions['photo_id'].str.replace('.jpg', '', regex=False)
+    df_merged = df_captions.merge(df_concat, how='left', on='photo_id')
+    df_merged['photo_id'] = df_merged['photo_id'] + '.jpg'
+    return df_merged
+
+@app.get("/", response_class=HTMLResponse)
+async def serve_index(request: Request):
+    """Serve the main HTML interface."""
+    return templates.TemplateResponse("index.html", {"request": request})
+
+@app.post("/process-images/")
+async def process_images(user_images: List[UploadFile] = File(...)):
     try:
-        # Check for the uploaded image file
-        if 'image' not in request.files:
-            return jsonify({"error": "No image uploaded"}), 400
-        
-        # Get the uploaded file
-        image_file = request.files['image']
+        # Ensure the temporary directory exists
+        os.makedirs("temp_images", exist_ok=True)
 
-        # Ensure the file has a valid filename
-        if image_file.filename == '':
-            return jsonify({"error": "No selected file"}), 400
-        
-        # Directly use the filename as the photo_id
-        photo_id = image_file.filename
+        # Save the uploaded image to a temporary directory
+        uploaded_image_paths = []
+        image_features = []
+        text_features = []
 
-        # Process the image (convert to base64 for embedding)
-        image = Image.open(image_file)
-        print(f"Image mode for {image_file}: {image.mode}")
+        for uploaded_file in user_images:
+            # Save the image file to a temporary location
+            photo_id = uploaded_file.filename
+            temp_image_path = f"temp_images/{photo_id}"
+            uploaded_image_paths.append(temp_image_path)
 
-        if image.mode != "RGB":
-            image = image.convert("RGB")
+            # Read the image contents and save them to the temporary file
+            contents = await uploaded_file.read()
+            with open(temp_image_path, "wb") as temp_file:
+                temp_file.write(contents)
 
+            image = Image.open(BytesIO(contents))
 
-        buffered = io.BytesIO()
-        image.save(buffered, format="JPEG")
-        image_base64 = base64.b64encode(buffered.getvalue()).decode()
+            # Merge CSVs and match photo_id
+            merged_df = merge_csvs(S3_BUCKET, MAIN_IMAGE_DIR, EXCLUDED_FILE)
+            matched_row = merged_df.loc[merged_df['photo_id'] == photo_id]
+            if matched_row.empty:
+                continue
 
-        # decoded_image = base64.b64decode(image_base64)
-        # image = Image.open(io.BytesIO(decoded_image))
+            caption = matched_row['caption'].iloc[0]
+            inputs = clip_processor(
+                text=[caption], images=image, return_tensors="pt", padding=True
+            ).to(device)
 
-        # Prepare the user_images dictionary
-        user_images = [
-            {
-                "filename": photo_id,
-                "image": image_base64   
+            # Get the embeddings for image and text
+            with torch.no_grad():
+                image_embedding = clip_model.get_image_features(inputs['pixel_values']).squeeze().cpu()
+                text_embedding = clip_model.get_text_features(
+                    input_ids=inputs['input_ids'],
+                    attention_mask=inputs['attention_mask']
+                ).squeeze().cpu()
+
+            image_features.append(image_embedding)
+            text_features.append(text_embedding)
+
+        # Ensure features were extracted
+        if image_features and text_features:
+            image_features_tensor = torch.stack(image_features)
+            text_features_tensor = torch.stack(text_features)
+
+            # Prepare payload for SageMaker endpoint
+            payload = {
+                "image_embedding": image_features_tensor.tolist(),
+                "text_embedding": text_features_tensor.tolist()
             }
-        ]
 
+            # Invoke the SageMaker endpoint
+            response = runtime_client.invoke_endpoint(
+                EndpointName=ENDPOINT_NAME,
+                ContentType="application/json",
+                Body=json.dumps(payload),
+            )
 
-        # Preprocess user-uploaded images
-        processed_results = preprocess_user_images(user_images, csv_df)
+            # Parse the response
+            response_payload = response["Body"].read().decode("utf-8")
+            prediction_scores = json.loads(response_payload)
 
-        # Extract processed features
-        try:
-            image_features = processed_results[0][0]
-            text_features = processed_results[1][0]
-            label = processed_results[2][0]
-            restaurant = processed_results[3][0]
-            photo_id = processed_results[4][0]
-        except IndexError:
-            return jsonify({"error": "Invalid processed_results structure"}), 500
+            if isinstance(prediction_scores, list) and len(prediction_scores) > 0:
+                prediction_score = float(prediction_scores[0])
+                predicted_label = "Upscale" if prediction_score > 0.5 else "Fast Food"
+            else:
+                raise ValueError("No valid predictions found in the response.")
 
-        # print(image_features)
-        # print(text_features)
-        print(restaurant)
+            # Return the prediction along with the image URL
+            response_data = {
+                "prediction_score": prediction_score,
+                "predicted_label": predicted_label,
+                "image_url": f"/temp_images/{uploaded_image_paths[0].split('/')[-1]}"   # Path to the uploaded image
+            }
 
-        # Use inference utility to make predictions
-        # prediction = inference_util.predict(image_features, text_features)
-        # print(prediction)
+            return response_data
 
-        image_features = image_features.squeeze()
-        text_features = text_features.squeeze()
-
-        print("Image features shape after squeeze:", image_features.shape)
-        print("Text features shape after squeeze:", text_features.shape)
-
-        payload = {
-            "image_embeddings": image_features.tolist(),
-            "text_embeddings": text_features.tolist()
-        }
-
-        
-        payload_size = sys.getsizeof(json.dumps(payload))
-        print(f"Payload size: {payload_size} bytes")
-
-        region="us-east-2"
-
-        client = boto3.client('sagemaker-runtime', region_name=region)
-
-        response = client.invoke_endpoint(
-            EndpointName=SAGEMAKER_ENDPOINT_NAME,
-            Body=json.dumps(payload),
-            ContentType="application/json"
-        )
-
-        result = response['Body'].read().decode('utf-8')
-        print(result)
-
-        # Return prediction and metadata
-        return jsonify({
-            "restaurant": restaurant,
-            "photo_id": photo_id,
-            "true_label": "Positive" if label == 1 else "Negative",
-            "predicted_label": "Positive" if prediction[0] > 0.5 else "Negative",
-            "confidence_score": prediction[0]
-        })
+        else:
+            raise ValueError("No features extracted for predictions")
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        raise HTTPException(status_code=500, detail=f"Error processing images: {str(e)}")
 
+# Define Pydantic model
+class TextInput(BaseModel):
+    text: List[str]  # Ensures FastAPI receives a valid JSON request
 
+@app.post("/process-text/")
+async def process_text(request: TextInput):
+    try:
+        print("Input text:", request.text)  # Log the text input for debugging
+        input_payload = json.dumps({"text": request.text})  # Send as a list of strings
+        # Invoke the SageMaker endpoint
+        response = runtime_client.invoke_endpoint(
+            EndpointName=endpoint_name_txt,
+            ContentType="application/json",
+            Body=input_payload
+        )
+        # Read and parse the response
+        response_body = json.loads(response["Body"].read().decode("utf-8"))
+        sentiments = response_body.get("label", ["Unknown"] * len(request.text))  # Ensure we get one prediction per text
+        return {"sentiments": sentiments}
+    except Exception as e:
+        print(f"Error: {str(e)}")  # Log error for debugging
+        raise HTTPException(status_code=500, detail=f"Error processing text: {str(e)}")
 
-if __name__ == '__main__':
-    app.run(debug=True)
