@@ -40,7 +40,9 @@
 
             <div id="text-result">
                 <h2>Sentiment Prediction:</h2>
-                <p id="sentiment-output"></p>
+                <p id="prediction"></p>
+                <!-- <div id="prediction"></div> -->
+                <!-- <p id="sentiment-output"></p> -->
             </div>
         </div>
 
@@ -92,7 +94,7 @@
             });
 
             const data = await response.json();
-            document.getElementById("sentiment-output").innerText = 
+            document.getElementById("prediction").innerText = 
                 `Sentiments: ${data.sentiments.join(", ")}`;
         });
     </script>

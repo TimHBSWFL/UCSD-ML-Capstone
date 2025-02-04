@@ -32,6 +32,13 @@ h1 {
     box-sizing: border-box; /* Ensure padding and borders are included in width calculation */
 }
 
+input[type="text"] {
+    width: 80%;  /* Adjust width percentage as needed */
+    max-width: 600px; /* Optional: Set a max width */
+    padding: 15px; /* Adds some spacing inside the box */
+    font-size: 16px; /* Adjusts text size inside the box */
+}
+
 button {
     background-color: #ff9800; /* Bright orange button */
     color: #fff;
@@ -62,6 +69,22 @@ img {
     border-radius: 8px;
     margin-top: 10px;
     border: 2px solid #ff9800; /* Add border around uploaded image */
+}
+
+#prediction {
+    color: #ff9800; /* Match the orange header color */
+    font-weight: bold;
+    font-size: 18px; /* Adjust size as needed */
+    text-align: left;
+    margin-top: 10px;
+}
+
+#prediction-result {
+    color: #ff9800; /* Match the orange header color */
+    font-weight: bold;
+    font-size: 18px; /* Adjust size as needed */
+    text-align: left;
+    margin-top: 10px;
 }
 
 /* Media Query for smaller screens */
