@@ -1,0 +1,313 @@
+photo_id,model_name,caption,name,labels,_merge
+6CE6edDhasSHcwdLsjkAXQ,nlpconnect/vit-gpt2-image-captioning,a large red and white balloon hanging from a ceiling ,Commander's Palace,fine dining,both
+6CE6edDhasSHcwdLsjkAXQ,Salesforce/blip-image-captioning-large,balloons are attached to a lamp in a room with a mirror,Commander's Palace,fine dining,both
+6CE6edDhasSHcwdLsjkAXQ,Salesforce/blip-image-captioning-base,a room with balloons and a mirror,Commander's Palace,fine dining,both
+bD8wSBFtum_fEqdXZY_2Wg,nlpconnect/vit-gpt2-image-captioning,a plate of food with vegetables and meat ,Subculture Urban Cuisine And Cafe,fast food,both
+bD8wSBFtum_fEqdXZY_2Wg,Salesforce/blip-image-captioning-large,someone holding a plate of food with a salad and a sandwich,Subculture Urban Cuisine And Cafe,fast food,both
+bD8wSBFtum_fEqdXZY_2Wg,Salesforce/blip-image-captioning-base,a person holding a plate of food with a fork,Subculture Urban Cuisine And Cafe,fast food,both
+a0W2QGfCIx5VBXVfX4F-lg,nlpconnect/vit-gpt2-image-captioning,"a salad with tomatoes, peppers, onions, and other vegetables ",Freeman's Flying Chicken,fast food,both
+a0W2QGfCIx5VBXVfX4F-lg,Salesforce/blip-image-captioning-large,there is a container of vegetables with a spoon in it,Freeman's Flying Chicken,fast food,both
+a0W2QGfCIx5VBXVfX4F-lg,Salesforce/blip-image-captioning-base,a container filled with vegetables and vegetables,Freeman's Flying Chicken,fast food,both
+OpC2fgHz06JdB4E2vGz83g,nlpconnect/vit-gpt2-image-captioning,a plate of food with meat and vegetables ,Trinity Restaurant New Orleans,fine dining,both
+OpC2fgHz06JdB4E2vGz83g,Salesforce/blip-image-captioning-large,a close up of a plate of food with meat and vegetables,Trinity Restaurant New Orleans,fine dining,both
+OpC2fgHz06JdB4E2vGz83g,Salesforce/blip-image-captioning-base,a plate with a salad on it,Trinity Restaurant New Orleans,fine dining,both
+6MQ0Oo2fS4Xwn27e3_X0_w,nlpconnect/vit-gpt2-image-captioning,a plate of food with meat and vegetables ,GW Fins,fine dining,both
+6MQ0Oo2fS4Xwn27e3_X0_w,Salesforce/blip-image-captioning-large,there is a plate of food with scallops and mushrooms on it,GW Fins,fine dining,both
+6MQ0Oo2fS4Xwn27e3_X0_w,Salesforce/blip-image-captioning-base,a plate with some food on it,GW Fins,fine dining,both
+j2gRVG7NeilU_aubK4aUug,nlpconnect/vit-gpt2-image-captioning,two women sitting at a table with a cake ,Whitey's Fishing Hole,fast food,both
+j2gRVG7NeilU_aubK4aUug,Salesforce/blip-image-captioning-large,several people sitting at a table with a lot of paper and pens,Whitey's Fishing Hole,fast food,both
+j2gRVG7NeilU_aubK4aUug,Salesforce/blip-image-captioning-base,three girls sitting at a table with a drink,Whitey's Fishing Hole,fast food,both
+rWZDVUKMKk_sQo9kkw3WmQ,nlpconnect/vit-gpt2-image-captioning,a bowl of soup on a table ,Commander's Palace,fine dining,both
+rWZDVUKMKk_sQo9kkw3WmQ,Salesforce/blip-image-captioning-large,there is a bowl of soup on a plate on a table,Commander's Palace,fine dining,both
+rWZDVUKMKk_sQo9kkw3WmQ,Salesforce/blip-image-captioning-base,a bowl of soup on a table with a glass of wine,Commander's Palace,fine dining,both
+e4zFRg08GTH7n1aTHPlBlQ,nlpconnect/vit-gpt2-image-captioning,a salad with a lot of greens on it ,Jane At The Marketplace,fine dining,both
+e4zFRg08GTH7n1aTHPlBlQ,Salesforce/blip-image-captioning-large,"there is a salad with lettuce, almonds and a dressing",Jane At The Marketplace,fine dining,both
+e4zFRg08GTH7n1aTHPlBlQ,Salesforce/blip-image-captioning-base,a plate with a salad and oranges on it,Jane At The Marketplace,fine dining,both
+8V-prsFGBQ7rUiEEMU3zUA,nlpconnect/vit-gpt2-image-captioning,a tray of fries with a hot dog and french fries ,Wayback Burgers,fast food,both
+8V-prsFGBQ7rUiEEMU3zUA,Salesforce/blip-image-captioning-large,a close up of a basket of french fries with ketchup,Wayback Burgers,fast food,both
+8V-prsFGBQ7rUiEEMU3zUA,Salesforce/blip-image-captioning-base,a basket of french fries with ketche kef sauce,Wayback Burgers,fast food,both
+NeKWfXG9N_PI9gqua0gogg,nlpconnect/vit-gpt2-image-captioning,a hot dog sitting on top of a picnic table ,Ground,fast food,both
+NeKWfXG9N_PI9gqua0gogg,Salesforce/blip-image-captioning-large,arafed sandwich and drink on a picnic table in a park,Ground,fast food,both
+NeKWfXG9N_PI9gqua0gogg,Salesforce/blip-image-captioning-base,a picnic table with a sandwich and a drink,Ground,fast food,both
+JYSQvrGejK4cBQXTF5QiXQ,nlpconnect/vit-gpt2-image-captioning,a woman standing in front of a crowd of people ,The Jazz Playhouse,fine dining,both
+JYSQvrGejK4cBQXTF5QiXQ,Salesforce/blip-image-captioning-large,several people are sitting in chairs and watching a band perform,The Jazz Playhouse,fine dining,both
+JYSQvrGejK4cBQXTF5QiXQ,Salesforce/blip-image-captioning-base,a band playing in a room with a stage,The Jazz Playhouse,fine dining,both
+U-1FRoiQehcAsN4xOutx8A,nlpconnect/vit-gpt2-image-captioning,a person holding a cup of coffee ,Capital Coffee,fast food,both
+U-1FRoiQehcAsN4xOutx8A,Salesforce/blip-image-captioning-large,someone is pouring a cup of coffee with a spoon in it,Capital Coffee,fast food,both
+U-1FRoiQehcAsN4xOutx8A,Salesforce/blip-image-captioning-base,a woman holding a cup of coffee,Capital Coffee,fast food,both
+jBTSlxzDM8XZrX26Lb2CeA,nlpconnect/vit-gpt2-image-captioning,a person holding a cup of coffee in front of a store ,Lilac Pâtisserie,fast food,both
+jBTSlxzDM8XZrX26Lb2CeA,Salesforce/blip-image-captioning-large,someone holding a cup of coffee in a coffee shop,Lilac Pâtisserie,fast food,both
+jBTSlxzDM8XZrX26Lb2CeA,Salesforce/blip-image-captioning-base,a hand holding a cup of coffee,Lilac Pâtisserie,fast food,both
+rJvLjCQbYkQ_plfu6YmItQ,nlpconnect/vit-gpt2-image-captioning,a cake with a pink frosting on it ,Restaurant August,fine dining,both
+rJvLjCQbYkQ_plfu6YmItQ,Salesforce/blip-image-captioning-large,there is a yellow macaron with chocolate chips on it,Restaurant August,fine dining,both
+rJvLjCQbYkQ_plfu6YmItQ,Salesforce/blip-image-captioning-base,a small dessert on a clear plate,Restaurant August,fine dining,both
+2CmoBjiw0GYOCbakHT3dHA,nlpconnect/vit-gpt2-image-captioning,a man holding a glass of orange juice ,Broussard's,fine dining,both
+2CmoBjiw0GYOCbakHT3dHA,Salesforce/blip-image-captioning-large,arafed man holding a glass of orange juice in a restaurant,Broussard's,fine dining,both
+2CmoBjiw0GYOCbakHT3dHA,Salesforce/blip-image-captioning-base,a man sitting at a table with a glass of orange juice,Broussard's,fine dining,both
+wzAtCWMPaUJw6JjE8lGRBA,nlpconnect/vit-gpt2-image-captioning,a table with a large table cloth and a large table cloth ,Union Kitchen & Union Party Room,fast food,both
+wzAtCWMPaUJw6JjE8lGRBA,Salesforce/blip-image-captioning-large,there are people standing in a room with a large painting on the wall,Union Kitchen & Union Party Room,fast food,both
+wzAtCWMPaUJw6JjE8lGRBA,Salesforce/blip-image-captioning-base,a restaurant with a large painting on the wall,Union Kitchen & Union Party Room,fast food,both
+dvjhBtDTx7UBGdCeQBGHzA,nlpconnect/vit-gpt2-image-captioning,a restaurant with tables and chairs and a large window ,Etch,fine dining,both
+dvjhBtDTx7UBGdCeQBGHzA,Salesforce/blip-image-captioning-large,tables and chairs in a restaurant with a large window,Etch,fine dining,both
+dvjhBtDTx7UBGdCeQBGHzA,Salesforce/blip-image-captioning-base,a restaurant with tables and chairs,Etch,fine dining,both
+4fkOz4Igmh0xFhbPe-B9Iw,nlpconnect/vit-gpt2-image-captioning,a plate of food with a spoon ,Restaurant August,fine dining,both
+4fkOz4Igmh0xFhbPe-B9Iw,Salesforce/blip-image-captioning-large,there is a bowl of soup with a spoon and a glass of water,Restaurant August,fine dining,both
+4fkOz4Igmh0xFhbPe-B9Iw,Salesforce/blip-image-captioning-base,a white plate with food,Restaurant August,fine dining,both
+NZH85ge4cvXsQaJR0sqoqA,nlpconnect/vit-gpt2-image-captioning,a bathroom with a sink and a mirror ,Auction House Market,fast food,both
+NZH85ge4cvXsQaJR0sqoqA,nlpconnect/vit-gpt2-image-captioning,a bathroom with a sink and a mirror ,Auction House Market,fine dining,both
+NZH85ge4cvXsQaJR0sqoqA,Salesforce/blip-image-captioning-large,there are two sinks in the bathroom with a mirror above them,Auction House Market,fast food,both
+NZH85ge4cvXsQaJR0sqoqA,Salesforce/blip-image-captioning-large,there are two sinks in the bathroom with a mirror above them,Auction House Market,fine dining,both
+NZH85ge4cvXsQaJR0sqoqA,Salesforce/blip-image-captioning-base,a bathroom with a sink and two mirrors,Auction House Market,fast food,both
+NZH85ge4cvXsQaJR0sqoqA,Salesforce/blip-image-captioning-base,a bathroom with a sink and two mirrors,Auction House Market,fine dining,both
+i5x0NRe8mNpjRt3bOuFbUA,nlpconnect/vit-gpt2-image-captioning,a plate of food with meat and vegetables ,Hattie B's Hot Chicken - Melrose,fast food,both
+i5x0NRe8mNpjRt3bOuFbUA,Salesforce/blip-image-captioning-large,there is a plate of food with meat and vegetables on it,Hattie B's Hot Chicken - Melrose,fast food,both
+i5x0NRe8mNpjRt3bOuFbUA,Salesforce/blip-image-captioning-base,a table with a tray of food and a tray of fries,Hattie B's Hot Chicken - Melrose,fast food,both
+OAkXi2LEO1SAq2auxZpeqQ,nlpconnect/vit-gpt2-image-captioning,a bowl of food with meat and vegetables ,Restaurant August,fine dining,both
+OAkXi2LEO1SAq2auxZpeqQ,Salesforce/blip-image-captioning-large,there is a white plate with a meat dish and vegetables,Restaurant August,fine dining,both
+OAkXi2LEO1SAq2auxZpeqQ,Salesforce/blip-image-captioning-base,a white plate topped with a dish of food,Restaurant August,fine dining,both
+muvVuwefjHmuIID-R3LAIw,nlpconnect/vit-gpt2-image-captioning,a restaurant with tables and chairs and a large clock ,Auction House Market,fast food,both
+muvVuwefjHmuIID-R3LAIw,nlpconnect/vit-gpt2-image-captioning,a restaurant with tables and chairs and a large clock ,Auction House Market,fine dining,both
+muvVuwefjHmuIID-R3LAIw,Salesforce/blip-image-captioning-large,arafed view of a restaurant with tables and chairs and people sitting at tables,Auction House Market,fast food,both
+muvVuwefjHmuIID-R3LAIw,Salesforce/blip-image-captioning-large,arafed view of a restaurant with tables and chairs and people sitting at tables,Auction House Market,fine dining,both
+muvVuwefjHmuIID-R3LAIw,Salesforce/blip-image-captioning-base,the dining area at the restaurant,Auction House Market,fast food,both
+muvVuwefjHmuIID-R3LAIw,Salesforce/blip-image-captioning-base,the dining area at the restaurant,Auction House Market,fine dining,both
+G3erNyqScC-7iH8ubECptA,nlpconnect/vit-gpt2-image-captioning,a kitchen with a large counter top and a large window ,Killer Poboys,fast food,both
+G3erNyqScC-7iH8ubECptA,Salesforce/blip-image-captioning-large,arafed view of a restaurant with a menu and a bar,Killer Poboys,fast food,both
+G3erNyqScC-7iH8ubECptA,Salesforce/blip-image-captioning-base,the bar at the old school,Killer Poboys,fast food,both
+bd5ZDz2kju5l6M-tVN5emA,nlpconnect/vit-gpt2-image-captioning,a restaurant with a large window and a large dining room ,Zeppelin Nashville ,fast food,both
+bd5ZDz2kju5l6M-tVN5emA,Salesforce/blip-image-captioning-large,arafed view of a restaurant with a bar and a view of the city,Zeppelin Nashville ,fast food,both
+bd5ZDz2kju5l6M-tVN5emA,Salesforce/blip-image-captioning-base,a restaurant with a view of the city,Zeppelin Nashville ,fast food,both
+1iPuV14xc8_I0yN1hqjKDg,nlpconnect/vit-gpt2-image-captioning,"a sandwich with lettuce, tomato, and cheese ",Broussard's,fine dining,both
+1iPuV14xc8_I0yN1hqjKDg,Salesforce/blip-image-captioning-large,there is a plate of food with a burger and potatoes on it,Broussard's,fine dining,both
+1iPuV14xc8_I0yN1hqjKDg,Salesforce/blip-image-captioning-base,a plate with a sandwich and some vegetables,Broussard's,fine dining,both
+kiKopRRIqaDIiNb885Cixw,nlpconnect/vit-gpt2-image-captioning,a man in a kitchen preparing food ,Sushi | Bar Montecito,fine dining,both
+kiKopRRIqaDIiNb885Cixw,Salesforce/blip-image-captioning-large,several chefs are preparing food in a restaurant kitchen,Sushi | Bar Montecito,fine dining,both
+kiKopRRIqaDIiNb885Cixw,Salesforce/blip-image-captioning-base,a group of people are preparing food in a restaurant,Sushi | Bar Montecito,fine dining,both
+uMuJZnSYM6xFEW1CXNBH-w,nlpconnect/vit-gpt2-image-captioning,a large room with tables and chairs and people ,Auction House Market,fast food,both
+uMuJZnSYM6xFEW1CXNBH-w,nlpconnect/vit-gpt2-image-captioning,a large room with tables and chairs and people ,Auction House Market,fine dining,both
+uMuJZnSYM6xFEW1CXNBH-w,Salesforce/blip-image-captioning-large,people sitting at tables in a restaurant with a lot of windows,Auction House Market,fast food,both
+uMuJZnSYM6xFEW1CXNBH-w,Salesforce/blip-image-captioning-large,people sitting at tables in a restaurant with a lot of windows,Auction House Market,fine dining,both
+uMuJZnSYM6xFEW1CXNBH-w,Salesforce/blip-image-captioning-base,a large room filled with people eating and drinking,Auction House Market,fast food,both
+uMuJZnSYM6xFEW1CXNBH-w,Salesforce/blip-image-captioning-base,a large room filled with people eating and drinking,Auction House Market,fine dining,both
+i4gB4Y-AP5KKxHc8OF78dQ,nlpconnect/vit-gpt2-image-captioning,a plate of food with a fork on a table ,Angel Oak,fine dining,both
+i4gB4Y-AP5KKxHc8OF78dQ,Salesforce/blip-image-captioning-large,there is a steak on a plate with a side of vegetables,Angel Oak,fine dining,both
+i4gB4Y-AP5KKxHc8OF78dQ,Salesforce/blip-image-captioning-base,a table with plates of food and uts,Angel Oak,fine dining,both
+TVDankvJbhxB0P9oiTPLPg,nlpconnect/vit-gpt2-image-captioning,a man standing in a kitchen with a table ,Pythian Market,fast food,both
+TVDankvJbhxB0P9oiTPLPg,Salesforce/blip-image-captioning-large,arafed view of a restaurant with a man standing at the bar,Pythian Market,fast food,both
+TVDankvJbhxB0P9oiTPLPg,Salesforce/blip-image-captioning-base,a restaurant with a large plant hanging from the ceiling,Pythian Market,fast food,both
+yVmQK2F8x8CwH3At99zuAA,nlpconnect/vit-gpt2-image-captioning,a plate of food with a drink and a piece of cake ,Emeril's Delmonico,fine dining,both
+yVmQK2F8x8CwH3At99zuAA,Salesforce/blip-image-captioning-large,araffy birthday card with a cookie and a glass of water,Emeril's Delmonico,fine dining,both
+yVmQK2F8x8CwH3At99zuAA,Salesforce/blip-image-captioning-base,a plate with a cookie and a candle on it,Emeril's Delmonico,fine dining,both
+J5T7jI5ItNecLuZbYFGpLQ,nlpconnect/vit-gpt2-image-captioning,a man sitting on a bench holding a camera ,PokeCeviche,fast food,both
+J5T7jI5ItNecLuZbYFGpLQ,Salesforce/blip-image-captioning-large,araffe sitting on a chair with a dog in his lap,PokeCeviche,fast food,both
+J5T7jI5ItNecLuZbYFGpLQ,Salesforce/blip-image-captioning-base,a man sitting at a table with a dog,PokeCeviche,fast food,both
+jUH9gH9zaKLPA66nbPONTg,nlpconnect/vit-gpt2-image-captioning,a room with a large window and a large wooden table ,Fulton Alley,fast food,both
+jUH9gH9zaKLPA66nbPONTg,Salesforce/blip-image-captioning-large,arafed view of a restaurant with a bar and a lot of chairs,Fulton Alley,fast food,both
+jUH9gH9zaKLPA66nbPONTg,Salesforce/blip-image-captioning-base,the bar at the restaurant is empty and empty,Fulton Alley,fast food,both
+yYbBYY5XmrrNZza1rSBb8g,nlpconnect/vit-gpt2-image-captioning,a person holding a piece of cake with a spoon ,Auction House Market,fast food,both
+yYbBYY5XmrrNZza1rSBb8g,nlpconnect/vit-gpt2-image-captioning,a person holding a piece of cake with a spoon ,Auction House Market,fine dining,both
+yYbBYY5XmrrNZza1rSBb8g,Salesforce/blip-image-captioning-large,someone holding a half eaten piece of cake with strawberry filling,Auction House Market,fast food,both
+yYbBYY5XmrrNZza1rSBb8g,Salesforce/blip-image-captioning-large,someone holding a half eaten piece of cake with strawberry filling,Auction House Market,fine dining,both
+yYbBYY5XmrrNZza1rSBb8g,Salesforce/blip-image-captioning-base,a person holding a piece of cake in their hands,Auction House Market,fast food,both
+yYbBYY5XmrrNZza1rSBb8g,Salesforce/blip-image-captioning-base,a person holding a piece of cake in their hands,Auction House Market,fine dining,both
+Y5Bj4hhOlOxVcYSUmZKgpQ,nlpconnect/vit-gpt2-image-captioning,a piece of meat on a plate ,Cubaneo,fast food,both
+Y5Bj4hhOlOxVcYSUmZKgpQ,Salesforce/blip-image-captioning-large,there is a piece of meat on a paper plate with sauce,Cubaneo,fast food,both
+Y5Bj4hhOlOxVcYSUmZKgpQ,Salesforce/blip-image-captioning-base,a plate with meat and sauce on it,Cubaneo,fast food,both
+XGgQxr-D5dUIilkh_6dEsQ,nlpconnect/vit-gpt2-image-captioning,a salad with a side of vegetables on a plate ,Restaurant R'evolution,fine dining,both
+XGgQxr-D5dUIilkh_6dEsQ,Salesforce/blip-image-captioning-large,there is a plate of salad on a table with wine glasses,Restaurant R'evolution,fine dining,both
+XGgQxr-D5dUIilkh_6dEsQ,Salesforce/blip-image-captioning-base,a plate with a salad on it,Restaurant R'evolution,fine dining,both
+UZdZDTharR3UW-D3ktoPpA,nlpconnect/vit-gpt2-image-captioning,a table topped with plates of food and a drink ,Mas Tacos Por Favor,fast food,both
+UZdZDTharR3UW-D3ktoPpA,Salesforce/blip-image-captioning-large,several plates of food are arranged on a table with drinks,Mas Tacos Por Favor,fast food,both
+UZdZDTharR3UW-D3ktoPpA,Salesforce/blip-image-captioning-base,a table with a bunch of taco taco taco taco taco taco ta,Mas Tacos Por Favor,fast food,both
+GIYUAr6zoqi6mKK6fYkKMw,nlpconnect/vit-gpt2-image-captioning,a orange is sitting on a table with a glass of orange juice ,Cafe Sbisa,fine dining,both
+GIYUAr6zoqi6mKK6fYkKMw,Salesforce/blip-image-captioning-large,there is a glass of orange juice on a table outside,Cafe Sbisa,fine dining,both
+GIYUAr6zoqi6mKK6fYkKMw,Salesforce/blip-image-captioning-base,a cocktail sitting on top of a table,Cafe Sbisa,fine dining,both
+FlD8orEaYJzZwK-oeYwSKw,nlpconnect/vit-gpt2-image-captioning,a plate of food with a drink and a beer ,TailGate Brewery Music Row,fast food,both
+FlD8orEaYJzZwK-oeYwSKw,Salesforce/blip-image-captioning-large,there is a plate of salad and a glass of beer on a table,TailGate Brewery Music Row,fast food,both
+FlD8orEaYJzZwK-oeYwSKw,Salesforce/blip-image-captioning-base,a plate of food and a glass of beer,TailGate Brewery Music Row,fast food,both
+5zX5vPMu6gYiPbxvM7jXrQ,nlpconnect/vit-gpt2-image-captioning,a sandwich and a drink on a plate ,Biscuit Love: Gulch,fast food,both
+5zX5vPMu6gYiPbxvM7jXrQ,Salesforce/blip-image-captioning-large,there is a sandwich and a drink on a table,Biscuit Love: Gulch,fast food,both
+5zX5vPMu6gYiPbxvM7jXrQ,Salesforce/blip-image-captioning-base,a plate with a piece of bread on it,Biscuit Love: Gulch,fast food,both
+0GCQc1j-MIoqHkQWtIii7w,nlpconnect/vit-gpt2-image-captioning,a plate of food with a salad and a side of vegetables ,The Mason Jar,fast food,both
+0GCQc1j-MIoqHkQWtIii7w,Salesforce/blip-image-captioning-large,"a close up of a salad with cucumbers, tomatoes, and bread",The Mason Jar,fast food,both
+0GCQc1j-MIoqHkQWtIii7w,Salesforce/blip-image-captioning-base,a bowl of salad with spinets and tomatoes,The Mason Jar,fast food,both
+hziEKnXsbBeTbpmqeR3yYw,nlpconnect/vit-gpt2-image-captioning,a plate of food with meat and vegetables ,Marsh House,fine dining,both
+hziEKnXsbBeTbpmqeR3yYw,Salesforce/blip-image-captioning-large,there is a bowl of soup with shrimp and vegetables on a table,Marsh House,fine dining,both
+hziEKnXsbBeTbpmqeR3yYw,Salesforce/blip-image-captioning-base,a bowl of soup with shrimp and shrimp,Marsh House,fine dining,both
+a8cVlIBv2ztpNq-zU93Ghw,nlpconnect/vit-gpt2-image-captioning,two men standing in front of a building with a clock ,Jeff Ruby's Steakhouse- Nashville,fine dining,both
+a8cVlIBv2ztpNq-zU93Ghw,Salesforce/blip-image-captioning-large,people walking in front of a restaurant with a sign that says joe's cafe,Jeff Ruby's Steakhouse- Nashville,fine dining,both
+a8cVlIBv2ztpNq-zU93Ghw,Salesforce/blip-image-captioning-base,a man walking down the sidewalk in front of a restaurant,Jeff Ruby's Steakhouse- Nashville,fine dining,both
+yhD5ccE4GvWZcoMdB_zCNA,nlpconnect/vit-gpt2-image-captioning,a plate of food with a piece of cake ,District Donuts Sliders Brew,fast food,both
+yhD5ccE4GvWZcoMdB_zCNA,Salesforce/blip-image-captioning-large,two cookies are on a tray with a cup of coffee,District Donuts Sliders Brew,fast food,both
+yhD5ccE4GvWZcoMdB_zCNA,Salesforce/blip-image-captioning-base,chocolate chip cookies with coconut,District Donuts Sliders Brew,fast food,both
+9hT707Gw9dkCSNqF-i73Ug,nlpconnect/vit-gpt2-image-captioning,a man standing in front of a stage with a microphone ,Martin's Bar-B-Que Joint,fast food,both
+9hT707Gw9dkCSNqF-i73Ug,Salesforce/blip-image-captioning-large,people are sitting on a stage with a band playing,Martin's Bar-B-Que Joint,fast food,both
+9hT707Gw9dkCSNqF-i73Ug,Salesforce/blip-image-captioning-base,a group of people on stage with a microphone,Martin's Bar-B-Que Joint,fast food,both
+ihJE1TqeFjMWFgP2uDZj1A,nlpconnect/vit-gpt2-image-captioning,a coffee cup with a picture of a cow on it ,Hattie B’s Hot Chicken - Nashville,fast food,both
+ihJE1TqeFjMWFgP2uDZj1A,Salesforce/blip-image-captioning-large,a close up of a cup with a lid on a table,Hattie B’s Hot Chicken - Nashville,fast food,both
+ihJE1TqeFjMWFgP2uDZj1A,Salesforce/blip-image-captioning-base,a cup with a red and white logo on it,Hattie B’s Hot Chicken - Nashville,fast food,both
+eFAL1krLttq-pMB7jQNUPA,nlpconnect/vit-gpt2-image-captioning,a man is looking at a menu on a laptop ,Etch,fine dining,both
+eFAL1krLttq-pMB7jQNUPA,Salesforce/blip-image-captioning-large,there are a lot of people in the kitchen preparing food,Etch,fine dining,both
+eFAL1krLttq-pMB7jQNUPA,Salesforce/blip-image-captioning-base,a menu with a picture of a restaurant,Etch,fine dining,both
+Io3T1kdiMxMDytnkP_FWGA,nlpconnect/vit-gpt2-image-captioning,a window with a painting of a building ,Cafe Beignet on Decatur Street,fast food,both
+Io3T1kdiMxMDytnkP_FWGA,Salesforce/blip-image-captioning-large,painting of a storefront with a cat in the window,Cafe Beignet on Decatur Street,fast food,both
+Io3T1kdiMxMDytnkP_FWGA,Salesforce/blip-image-captioning-base,a painting of a storefront with a cat sitting on the front,Cafe Beignet on Decatur Street,fast food,both
+q96LKmdGQhRO0RKOv6ZQTA,nlpconnect/vit-gpt2-image-captioning,a pizza with cheese and toppings on a table ,Michaelangelo's Pizza,fast food,both
+q96LKmdGQhRO0RKOv6ZQTA,Salesforce/blip-image-captioning-large,pizza in a box with a slice missing from it,Michaelangelo's Pizza,fast food,both
+q96LKmdGQhRO0RKOv6ZQTA,Salesforce/blip-image-captioning-base,a pizza with a heart shaped pizza on it,Michaelangelo's Pizza,fast food,both
+zsrxhptjVz6YVk2ddb9bUg,nlpconnect/vit-gpt2-image-captioning,a row of chairs with chairs in a room ,The Terminal Cafe,fast food,both
+zsrxhptjVz6YVk2ddb9bUg,Salesforce/blip-image-captioning-large,a close up of a row of chairs in a room,The Terminal Cafe,fast food,both
+zsrxhptjVz6YVk2ddb9bUg,Salesforce/blip-image-captioning-base,a room with chairs and a painting on the wall,The Terminal Cafe,fast food,both
+utkDnVjISbvWUcw2FsowWQ,nlpconnect/vit-gpt2-image-captioning,a plate of food with meat and vegetables ,Restaurant Rebirth,fast food,both
+utkDnVjISbvWUcw2FsowWQ,Salesforce/blip-image-captioning-large,there is a plate of food on a table with a woman in the background,Restaurant Rebirth,fast food,both
+utkDnVjISbvWUcw2FsowWQ,Salesforce/blip-image-captioning-base,a plate of food on a table with people in the background,Restaurant Rebirth,fast food,both
+psA8BWDeWtWv0oZUOgAMFA,nlpconnect/vit-gpt2-image-captioning,a woman sitting at a table with a vase of flowers ,Coffee and Coconuts,fast food,both
+psA8BWDeWtWv0oZUOgAMFA,Salesforce/blip-image-captioning-large,arafed woman sitting at a table with a coconut drink in front of her,Coffee and Coconuts,fast food,both
+psA8BWDeWtWv0oZUOgAMFA,Salesforce/blip-image-captioning-base,a woman sitting at a table with a drink,Coffee and Coconuts,fast food,both
+k8KzOIdWe93YI7Pv75Z-lQ,nlpconnect/vit-gpt2-image-captioning,a glass of water with a flower in it ,Saint John,fine dining,both
+k8KzOIdWe93YI7Pv75Z-lQ,Salesforce/blip-image-captioning-large,there is a glass of alcohol with a gold decoration on the rim,Saint John,fine dining,both
+k8KzOIdWe93YI7Pv75Z-lQ,Salesforce/blip-image-captioning-base,a cocktail with orange and orange garn,Saint John,fine dining,both
+w0tDRZE2g-Ymrg2Sm0G2lA,nlpconnect/vit-gpt2-image-captioning,a white plate with a piece of food on it ,The Caribbean Room,fine dining,both
+w0tDRZE2g-Ymrg2Sm0G2lA,Salesforce/blip-image-captioning-large,there is a white plate with a small dish of food on it,The Caribbean Room,fine dining,both
+w0tDRZE2g-Ymrg2Sm0G2lA,Salesforce/blip-image-captioning-base,a white plate topped with a small piece of food,The Caribbean Room,fine dining,both
+kVgQ7s4Wu4YBVAomJBehlw,nlpconnect/vit-gpt2-image-captioning,a cake with a person holding a knife on top of it ,Tableau,fine dining,both
+kVgQ7s4Wu4YBVAomJBehlw,Salesforce/blip-image-captioning-large,someone is holding a plate with a cake on it that says t,Tableau,fine dining,both
+kVgQ7s4Wu4YBVAomJBehlw,Salesforce/blip-image-captioning-base,a person holding a plate with a cake on it,Tableau,fine dining,both
+6JSskEgLNksIUa5jDNXs9A,nlpconnect/vit-gpt2-image-captioning,a bowl of food with vegetables and meat ,PokeCeviche,fast food,both
+6JSskEgLNksIUa5jDNXs9A,Salesforce/blip-image-captioning-large,there is a bowl of food with rice and vegetables in it,PokeCeviche,fast food,both
+6JSskEgLNksIUa5jDNXs9A,Salesforce/blip-image-captioning-base,a bowl filled with watermel and other ingredients,PokeCeviche,fast food,both
+MkCp0bcfjxEGRBzGCrKxGg,nlpconnect/vit-gpt2-image-captioning,a restaurant with tables and chairs and a large window ,Auction House Market,fast food,both
+MkCp0bcfjxEGRBzGCrKxGg,nlpconnect/vit-gpt2-image-captioning,a restaurant with tables and chairs and a large window ,Auction House Market,fine dining,both
+MkCp0bcfjxEGRBzGCrKxGg,Salesforce/blip-image-captioning-large,there are people standing at the counter of a restaurant,Auction House Market,fast food,both
+MkCp0bcfjxEGRBzGCrKxGg,Salesforce/blip-image-captioning-large,there are people standing at the counter of a restaurant,Auction House Market,fine dining,both
+MkCp0bcfjxEGRBzGCrKxGg,Salesforce/blip-image-captioning-base,a restaurant with tables and chairs in it,Auction House Market,fast food,both
+MkCp0bcfjxEGRBzGCrKxGg,Salesforce/blip-image-captioning-base,a restaurant with tables and chairs in it,Auction House Market,fine dining,both
+xcdEQhjozSwhyTl50I0zYA,nlpconnect/vit-gpt2-image-captioning,a banana and a piece of chocolate on a table ,The Catbird Seat,fine dining,both
+xcdEQhjozSwhyTl50I0zYA,Salesforce/blip-image-captioning-large,there are two cookies on a plate with a card on top,The Catbird Seat,fine dining,both
+xcdEQhjozSwhyTl50I0zYA,Salesforce/blip-image-captioning-base,a bowl filled with nuts and a note,The Catbird Seat,fine dining,both
+G8XIw30MbrdIwCVDxLB1cA,nlpconnect/vit-gpt2-image-captioning,"a sandwich with meat, lettuce, tomato and cheese ",McAlister's Deli,fast food,both
+G8XIw30MbrdIwCVDxLB1cA,Salesforce/blip-image-captioning-large,"there is a sandwich with meat, lettuce, tomato, and cheese",McAlister's Deli,fast food,both
+G8XIw30MbrdIwCVDxLB1cA,Salesforce/blip-image-captioning-base,"a sandwich with bacon, let let the buns and let the buns",McAlister's Deli,fast food,both
+B3vtcvKoRjMDZHUGUkmiJg,nlpconnect/vit-gpt2-image-captioning,a sandwich with lettuce and tomato on a plate ,Tableau,fine dining,both
+B3vtcvKoRjMDZHUGUkmiJg,Salesforce/blip-image-captioning-large,there is a salad on a plate with a fork and a glass of water,Tableau,fine dining,both
+B3vtcvKoRjMDZHUGUkmiJg,Salesforce/blip-image-captioning-base,a plate with a salad and a glass of wine,Tableau,fine dining,both
+NVhyD0zX2X92rNRvJSBo8g,nlpconnect/vit-gpt2-image-captioning,"a plate of food with meat, potatoes and vegetables ",Belcampo Meat Co Restaurant,fast food,both
+NVhyD0zX2X92rNRvJSBo8g,Salesforce/blip-image-captioning-large,"there is a plate of food with meat, potatoes, and peppers",Belcampo Meat Co Restaurant,fast food,both
+NVhyD0zX2X92rNRvJSBo8g,Salesforce/blip-image-captioning-base,a plate of food with a fork and knife,Belcampo Meat Co Restaurant,fast food,both
+CGry39MqE6xaGLWvjAOQwA,nlpconnect/vit-gpt2-image-captioning,a plate of food with meat and vegetables ,Gianna Restaurant,fine dining,both
+CGry39MqE6xaGLWvjAOQwA,Salesforce/blip-image-captioning-large,there is a plate of food on a table with a glass of wine,Gianna Restaurant,fine dining,both
+CGry39MqE6xaGLWvjAOQwA,Salesforce/blip-image-captioning-base,a plate of food and a glass of wine,Gianna Restaurant,fine dining,both
+iI-Vrb7mVu_ZmnqRmr3PdQ,nlpconnect/vit-gpt2-image-captioning,a man sitting at a table with a cup ,El Libre,fast food,both
+iI-Vrb7mVu_ZmnqRmr3PdQ,Salesforce/blip-image-captioning-large,there is a table with a large picture on it in a room,El Libre,fast food,both
+iI-Vrb7mVu_ZmnqRmr3PdQ,Salesforce/blip-image-captioning-base,a table with red chairs and a painting on the wall,El Libre,fast food,both
+Ziv4lkyCRb7nnl8qEr_h_w,nlpconnect/vit-gpt2-image-captioning,three people posing for a picture in front of a building ,Commander's Palace,fine dining,both
+Ziv4lkyCRb7nnl8qEr_h_w,Salesforce/blip-image-captioning-large,several people standing on the sidewalk of a city street,Commander's Palace,fine dining,both
+Ziv4lkyCRb7nnl8qEr_h_w,Salesforce/blip-image-captioning-base,a group of people standing outside of a building,Commander's Palace,fine dining,both
+jwYMiAjgmmDJHdGaGyM27g,nlpconnect/vit-gpt2-image-captioning,a tray of food with a sandwich and a drink ,Barracuda,fast food,both
+jwYMiAjgmmDJHdGaGyM27g,Salesforce/blip-image-captioning-large,a close up of a tray of food with chips and a drink,Barracuda,fast food,both
+jwYMiAjgmmDJHdGaGyM27g,Salesforce/blip-image-captioning-base,a tray with chips and a drink on it,Barracuda,fast food,both
+KYS2N7nDRsPziBhZtd-JPQ,nlpconnect/vit-gpt2-image-captioning,a plate of food with a fork and knife ,Brennan's,fine dining,both
+KYS2N7nDRsPziBhZtd-JPQ,Salesforce/blip-image-captioning-large,there is a plate of oysters on a plate with a lemon wedge,Brennan's,fine dining,both
+KYS2N7nDRsPziBhZtd-JPQ,Salesforce/blip-image-captioning-base,a table with a plate of food and wine glasses,Brennan's,fine dining,both
+afwnrCxSDF4S52AuYA7rVQ,nlpconnect/vit-gpt2-image-captioning,a person holding a sandwich in their hand ,Bar Frances,fine dining,both
+afwnrCxSDF4S52AuYA7rVQ,Salesforce/blip-image-captioning-large,someone holding a sandwich with a fried egg and french fries,Bar Frances,fine dining,both
+afwnrCxSDF4S52AuYA7rVQ,Salesforce/blip-image-captioning-base,a person holding a hamburger with meat and cheese,Bar Frances,fine dining,both
+mT7xojyxFL9w6zHK6GN-dw,nlpconnect/vit-gpt2-image-captioning,a dining room table with chairs and tables ,Broussard's,fine dining,both
+mT7xojyxFL9w6zHK6GN-dw,Salesforce/blip-image-captioning-large,tables and chairs set up in a restaurant with white linens,Broussard's,fine dining,both
+mT7xojyxFL9w6zHK6GN-dw,Salesforce/blip-image-captioning-base,the dining room at the hotel at the ri resort,Broussard's,fine dining,both
+PblF2i19w96x6iJGiyjOZA,nlpconnect/vit-gpt2-image-captioning,a woman is standing in a kitchen with a counter top ,Café NOMA,fast food,both
+PblF2i19w96x6iJGiyjOZA,Salesforce/blip-image-captioning-large,there are people standing at the counter of a restaurant,Café NOMA,fast food,both
+PblF2i19w96x6iJGiyjOZA,Salesforce/blip-image-captioning-base,a bar with a counter and a blackboard,Café NOMA,fast food,both
+R6PiOxCzAVYMojwQSjtERw,nlpconnect/vit-gpt2-image-captioning,a bar with a lot of bottles and a sign ,The Bulldog,fast food,both
+R6PiOxCzAVYMojwQSjtERw,Salesforce/blip-image-captioning-large,arafed bar with a lot of beer taps and a television,The Bulldog,fast food,both
+R6PiOxCzAVYMojwQSjtERw,Salesforce/blip-image-captioning-base,a bar with a television above it,The Bulldog,fast food,both
+dgKumknyj_Iz0EDjCG32kg,nlpconnect/vit-gpt2-image-captioning,a man standing outside of a store with a sign ,Sloco,fast food,both
+dgKumknyj_Iz0EDjCG32kg,Salesforce/blip-image-captioning-large,people walking by a store with a sign that says slogo,Sloco,fast food,both
+dgKumknyj_Iz0EDjCG32kg,Salesforce/blip-image-captioning-base,people are walking down the sidewalk outside of a restaurant,Sloco,fast food,both
+ygdpIcVI8T3J6HlsC_COkQ,nlpconnect/vit-gpt2-image-captioning,a person holding a piece of food in their hand ,Bajo Sexto Taco,fast food,both
+ygdpIcVI8T3J6HlsC_COkQ,Salesforce/blip-image-captioning-large,someone is holding a taco with a lime wedge on it,Bajo Sexto Taco,fast food,both
+ygdpIcVI8T3J6HlsC_COkQ,Salesforce/blip-image-captioning-base,a person holding a plate with food on it,Bajo Sexto Taco,fast food,both
+rK27MSwgcMUwUGph6n3Qgg,nlpconnect/vit-gpt2-image-captioning,a restaurant with a large number of tables ,District Donuts Sliders Brew,fast food,both
+rK27MSwgcMUwUGph6n3Qgg,Salesforce/blip-image-captioning-large,people are sitting at tables in a restaurant with a large window,District Donuts Sliders Brew,fast food,both
+rK27MSwgcMUwUGph6n3Qgg,Salesforce/blip-image-captioning-base,the interior of a restaurant with people sitting at tables,District Donuts Sliders Brew,fast food,both
+7W038y2nqWJ8WstJxQVCIw,nlpconnect/vit-gpt2-image-captioning,two people standing in a kitchen with a sink ,District Donuts Sliders & Brew Lakeview,fast food,both
+7W038y2nqWJ8WstJxQVCIw,Salesforce/blip-image-captioning-large,people are standing at a counter in a restaurant with a blue tile floor,District Donuts Sliders & Brew Lakeview,fast food,both
+7W038y2nqWJ8WstJxQVCIw,Salesforce/blip-image-captioning-base,a restaurant with a large floor with a pattern,District Donuts Sliders & Brew Lakeview,fast food,both
+TrmEQcA4CzjI-rUnXcV9Ng,nlpconnect/vit-gpt2-image-captioning,a woman is talking on a cell phone in front of a lamp ,Broussard's,fine dining,both
+TrmEQcA4CzjI-rUnXcV9Ng,Salesforce/blip-image-captioning-large,arafed woman sitting at a table with a glass chandelier in the background,Broussard's,fine dining,both
+TrmEQcA4CzjI-rUnXcV9Ng,Salesforce/blip-image-captioning-base,a woman sitting at a table with a plate of food,Broussard's,fine dining,both
+7FMmFFJJnyQ51HOr3fl3qA,nlpconnect/vit-gpt2-image-captioning,"a plate of food with meat, potatoes, and a side of bread ",Martin's Bar-B-Que Joint,fast food,both
+7FMmFFJJnyQ51HOr3fl3qA,Salesforce/blip-image-captioning-large,a close up of a tray of food with meat and sides,Martin's Bar-B-Que Joint,fast food,both
+7FMmFFJJnyQ51HOr3fl3qA,Salesforce/blip-image-captioning-base,a plate of ribs and some dippings on a table,Martin's Bar-B-Que Joint,fast food,both
+k8ATTaPooVkv9mM3flgEUw,nlpconnect/vit-gpt2-image-captioning,a sandwich with meat and cheese on a bun ,Gyro Spot,fast food,both
+k8ATTaPooVkv9mM3flgEUw,Salesforce/blip-image-captioning-large,there are two sandwiches with meatballs and cheese on them,Gyro Spot,fast food,both
+k8ATTaPooVkv9mM3flgEUw,Salesforce/blip-image-captioning-base,a plate of food with some meat in it,Gyro Spot,fast food,both
+drJtMMW4KA4acSkKu7inCQ,nlpconnect/vit-gpt2-image-captioning,a pair of orange colored glasses sitting on top of a counter ,Sperry's Restaurant,fine dining,both
+drJtMMW4KA4acSkKu7inCQ,Salesforce/blip-image-captioning-large,three martini glasses with different colored drinks on a bar,Sperry's Restaurant,fine dining,both
+drJtMMW4KA4acSkKu7inCQ,Salesforce/blip-image-captioning-base,a bar with a row of cocktails,Sperry's Restaurant,fine dining,both
+Fa5AMUCnfrqKPgc7ohksHQ,nlpconnect/vit-gpt2-image-captioning,a wooden table topped with a plate of food ,Flor De Maiz,fine dining,both
+Fa5AMUCnfrqKPgc7ohksHQ,Salesforce/blip-image-captioning-large,there is a plate of food that includes a tortilla and a side of rice,Flor De Maiz,fine dining,both
+Fa5AMUCnfrqKPgc7ohksHQ,Salesforce/blip-image-captioning-base,a wooden cutting board,Flor De Maiz,fine dining,both
+h8gdUiWl0VwosWv_-Jv3qA,nlpconnect/vit-gpt2-image-captioning,a piece of meat with a slice of tomato on it ,Watermark Restaurant,fine dining,both
+h8gdUiWl0VwosWv_-Jv3qA,Salesforce/blip-image-captioning-large,there is a plate of food with bread and a lobster,Watermark Restaurant,fine dining,both
+h8gdUiWl0VwosWv_-Jv3qA,Salesforce/blip-image-captioning-base,a plate with a piece of bread and a lobster,Watermark Restaurant,fine dining,both
+1NivN-FbZqC6op5-LAd8wQ,nlpconnect/vit-gpt2-image-captioning,a bowl of soup with a spoon in it ,Flor De Maiz,fine dining,both
+1NivN-FbZqC6op5-LAd8wQ,Salesforce/blip-image-captioning-large,there is a plate of food on a table with a person sitting at the table,Flor De Maiz,fine dining,both
+1NivN-FbZqC6op5-LAd8wQ,Salesforce/blip-image-captioning-base,a wooden table,Flor De Maiz,fine dining,both
+LYrk-BJh2CcRM-TIl2xd6A,nlpconnect/vit-gpt2-image-captioning,a piano in a room with a large window ,The Jazz Playhouse,fine dining,both
+LYrk-BJh2CcRM-TIl2xd6A,Salesforce/blip-image-captioning-large,arafed stage with a man playing a piano and a drum,The Jazz Playhouse,fine dining,both
+LYrk-BJh2CcRM-TIl2xd6A,Salesforce/blip-image-captioning-base,a man in a suit and tie is playing a piano,The Jazz Playhouse,fine dining,both
+UUHZMKbTse8xDl8SeXKOnA,nlpconnect/vit-gpt2-image-captioning,a man in a suit is standing in a room ,The Jazz Playhouse,fine dining,both
+UUHZMKbTse8xDl8SeXKOnA,Salesforce/blip-image-captioning-large,arafed black and white photo of a band playing on stage,The Jazz Playhouse,fine dining,both
+UUHZMKbTse8xDl8SeXKOnA,Salesforce/blip-image-captioning-base,the band is playing in the room,The Jazz Playhouse,fine dining,both
+GkQkDWZYzUiJGbky1l4-rw,nlpconnect/vit-gpt2-image-captioning,a kitchen with a counter top and a large counter top ,Commander's Palace,fine dining,both
+GkQkDWZYzUiJGbky1l4-rw,Salesforce/blip-image-captioning-large,arafed bar with a lot of wine glasses on the counter,Commander's Palace,fine dining,both
+GkQkDWZYzUiJGbky1l4-rw,Salesforce/blip-image-captioning-base,a bar with a bunch of wine glasses on the bar,Commander's Palace,fine dining,both
+ZET3K0PKVXT8yc4_qR3aWw,nlpconnect/vit-gpt2-image-captioning,a row of glass bottles hanging from a ceiling ,Satellite,fast food,both
+ZET3K0PKVXT8yc4_qR3aWw,Salesforce/blip-image-captioning-large,there are many wine glasses hanging from the ceiling of a bar,Satellite,fast food,both
+ZET3K0PKVXT8yc4_qR3aWw,Salesforce/blip-image-captioning-base,a row of wine glasses hanging from a ceiling,Satellite,fast food,both
+_IxKfwsh0Z-KxglmamHNtA,nlpconnect/vit-gpt2-image-captioning,a plate of food with a fried egg on it ,Biscuit Love: Gulch,fast food,both
+_IxKfwsh0Z-KxglmamHNtA,Salesforce/blip-image-captioning-large,there is a plate of food with a fried egg and cucumbers,Biscuit Love: Gulch,fast food,both
+_IxKfwsh0Z-KxglmamHNtA,Salesforce/blip-image-captioning-base,a plate with a fried egg and some vegetables,Biscuit Love: Gulch,fast food,both
+9DXBy-gMqb-SEO36aNXUCg,nlpconnect/vit-gpt2-image-captioning,people sitting at a table in a restaurant ,The Jazz Playhouse,fine dining,both
+9DXBy-gMqb-SEO36aNXUCg,Salesforce/blip-image-captioning-large,there are people sitting at a table in a restaurant,The Jazz Playhouse,fine dining,both
+9DXBy-gMqb-SEO36aNXUCg,Salesforce/blip-image-captioning-base,a man sitting at a table in a restaurant,The Jazz Playhouse,fine dining,both
+O3YYuhfq8AP1UDEOIiiotw,nlpconnect/vit-gpt2-image-captioning,a plate of food with meat and vegetables ,Sunda - Nashville,fine dining,both
+O3YYuhfq8AP1UDEOIiiotw,Salesforce/blip-image-captioning-large,there is a plate of food with rice and an egg on it,Sunda - Nashville,fine dining,both
+O3YYuhfq8AP1UDEOIiiotw,Salesforce/blip-image-captioning-base,a bowl of food with eggs and rice,Sunda - Nashville,fine dining,both
+njfFO_zc6kk3W1b0zq5UwQ,nlpconnect/vit-gpt2-image-captioning,a kitchen with a refrigerator and a television ,SWEGS Kitchen - Metairie,fast food,both
+njfFO_zc6kk3W1b0zq5UwQ,Salesforce/blip-image-captioning-large,arafed view of a restaurant counter with a menu on the wall,SWEGS Kitchen - Metairie,fast food,both
+njfFO_zc6kk3W1b0zq5UwQ,Salesforce/blip-image-captioning-base,a restaurant with a counter and a television,SWEGS Kitchen - Metairie,fast food,both
+mJ0rKFfuHyGtuqrtl3FSsg,nlpconnect/vit-gpt2-image-captioning,a sandwich with meat and lettuce on a bun ,The Habit Burger Grill,fast food,both
+mJ0rKFfuHyGtuqrtl3FSsg,Salesforce/blip-image-captioning-large,someone holding a large hamburger with cheese and lettuce in a basket,The Habit Burger Grill,fast food,both
+mJ0rKFfuHyGtuqrtl3FSsg,Salesforce/blip-image-captioning-base,a hamburger with a lot of toppings on it,The Habit Burger Grill,fast food,both
+CvBDaacp8V3OUuFpS3AOrA,nlpconnect/vit-gpt2-image-captioning,a table with a bunch of people sitting at it ,Bourbon Steak by Michael Mina,fine dining,both
+CvBDaacp8V3OUuFpS3AOrA,Salesforce/blip-image-captioning-large,people sitting at a table in a restaurant with a view of the city,Bourbon Steak by Michael Mina,fine dining,both
+CvBDaacp8V3OUuFpS3AOrA,Salesforce/blip-image-captioning-base,people sitting at tables in a restaurant with a view of the city,Bourbon Steak by Michael Mina,fine dining,both
+cAlVAQFw4gbSgzOyRzFcKQ,nlpconnect/vit-gpt2-image-captioning,a room with a large group of people sitting around ,Sazerac Bar,fine dining,both
+cAlVAQFw4gbSgzOyRzFcKQ,Salesforce/blip-image-captioning-large,people sitting in chairs in a large room with a painting on the wall,Sazerac Bar,fine dining,both
+cAlVAQFw4gbSgzOyRzFcKQ,Salesforce/blip-image-captioning-base,a large lobby with many people sitting in chairs,Sazerac Bar,fine dining,both
+oEk_aG0RhZvSK2miMeV-GQ,nlpconnect/vit-gpt2-image-captioning,a drink and a drink of water are on a table ,L.A. Jackson,fine dining,both
+oEk_aG0RhZvSK2miMeV-GQ,Salesforce/blip-image-captioning-large,there are two drinks on the ledge of a building overlooking the city,L.A. Jackson,fine dining,both
+oEk_aG0RhZvSK2miMeV-GQ,Salesforce/blip-image-captioning-base,two drinks on a table with a view of the city,L.A. Jackson,fine dining,both
+CQ98rBNL677cqP92n4o0uw,nlpconnect/vit-gpt2-image-captioning,a man in a restaurant kitchen with a large counter ,St Roch Market,fast food,both
+CQ98rBNL677cqP92n4o0uw,Salesforce/blip-image-captioning-large,people are standing in a restaurant with a counter and a bar,St Roch Market,fast food,both
+CQ98rBNL677cqP92n4o0uw,Salesforce/blip-image-captioning-base,a large room with a counter and people,St Roch Market,fast food,both
+f4h0-M-2qORyNItKD7ZcmA,nlpconnect/vit-gpt2-image-captioning,a restaurant with tables and chairs and people ,Zea Rotisserie & Bar,fine dining,both
+f4h0-M-2qORyNItKD7ZcmA,Salesforce/blip-image-captioning-large,tables and chairs in a restaurant with a large painting on the wall,Zea Rotisserie & Bar,fine dining,both
+f4h0-M-2qORyNItKD7ZcmA,Salesforce/blip-image-captioning-base,a restaurant with tables and chairs,Zea Rotisserie & Bar,fine dining,both
+eexOAs6i_Q9tZioyJwPOQA,nlpconnect/vit-gpt2-image-captioning,a bowl of food with a lemon on top ,Restaurant August,fine dining,both
+eexOAs6i_Q9tZioyJwPOQA,Salesforce/blip-image-captioning-large,there is a small egg with a piece of bread in it,Restaurant August,fine dining,both
+eexOAs6i_Q9tZioyJwPOQA,Salesforce/blip-image-captioning-base,a deviled egg with a biter of cheese,Restaurant August,fine dining,both
+oG0ECMHx6OYjIE9JyLDjYA,nlpconnect/vit-gpt2-image-captioning,"a kitchen with a sink, counter, and a counter top ",Long Chim Nola,fast food,both
+oG0ECMHx6OYjIE9JyLDjYA,Salesforce/blip-image-captioning-large,there are many people in the kitchen preparing food at the counter,Long Chim Nola,fast food,both
+oG0ECMHx6OYjIE9JyLDjYA,Salesforce/blip-image-captioning-base,a restaurant with a bar and a counter,Long Chim Nola,fast food,both
+sLDLpGad63ZmsNK9wKLAaA,nlpconnect/vit-gpt2-image-captioning,a plate of food with a fork and a spoon ,Commander's Palace,fine dining,both
+sLDLpGad63ZmsNK9wKLAaA,Salesforce/blip-image-captioning-large,there is a plate of food that is on a table,Commander's Palace,fine dining,both
+sLDLpGad63ZmsNK9wKLAaA,Salesforce/blip-image-captioning-base,ri ri ri ri ri ri ri ri ri ri ri ri ri ri ri ri ri ri ri,Commander's Palace,fine dining,both
+8UtPLccwoRl8vztebKPaeQ,nlpconnect/vit-gpt2-image-captioning,a man sitting on a couch with a cell phone ,Sazerac Bar,fine dining,both
+8UtPLccwoRl8vztebKPaeQ,Salesforce/blip-image-captioning-large,there is a man sitting in a chair in a room,Sazerac Bar,fine dining,both
+8UtPLccwoRl8vztebKPaeQ,Salesforce/blip-image-captioning-base,a man sitting in a chair in a room,Sazerac Bar,fine dining,both
+1NzZr5ILWSqKF0bvE5qQrw,nlpconnect/vit-gpt2-image-captioning,a plate of food with meat and vegetables ,Lebanese Bistro,fast food,both
+1NzZr5ILWSqKF0bvE5qQrw,Salesforce/blip-image-captioning-large,a close up of a plate of food with meat and rice,Lebanese Bistro,fast food,both
+1NzZr5ILWSqKF0bvE5qQrw,Salesforce/blip-image-captioning-base,a plate of food with rice and chicken,Lebanese Bistro,fast food,both
