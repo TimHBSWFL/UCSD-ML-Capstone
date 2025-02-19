@@ -23,9 +23,9 @@ Refer to CSV file called "sample_new_images_captions.csv" to view text captions 
 These include images the model has never seen before and are associated with Yelp Images from different regions (i.e., California, Tennessee, & Louisiana). Please see "Sample Images" folder for 4 sample images that can be uploaded into the model. 
 
 ## Yelp Reviews
-Refer to CSV file called "sample_new_yelp_reviews" to view 4 sample text reviews that the model has never seen before. Also associated with the regions mentioned above. Feel free to use these or even your own text reviews to view the sentiment of the reviews.
+Refer to CSV file called "sample_new_yelp_reviews.csv" to view 4 sample text reviews that the model has never seen before. Also associated with the regions mentioned above. Feel free to use these or even your own text reviews to view the sentiment of the reviews.
 
-You could copy and paste one single review or a batch of reviews and it will return one or more predictions. If you use a batch of review as the text input, please be sure to copy and paste the text in a list format and enter a space between each review. 
+You could copy and paste one single review or a batch of reviews and it will return one or more predictions. If you use a batch of reviews as the text input, please be sure to copy and paste the text in a list format and enter a space between each review. 
 
 ### Here is an example: 
 "Terrible! No customer service what so ever. We sat and waited for an order to be placed. They never answered with the button pushed. We said something to one of the car hops and said that one wasn't working.  No sign placed on there. He didn't offer to take our order or any help what do ever.",
